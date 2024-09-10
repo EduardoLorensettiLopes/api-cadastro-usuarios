@@ -8,7 +8,7 @@ const app = express()
 
 app.use(express.json())
 app.use(cors())
-const port = 3000
+const port = process.env.PORT || 3000
 
 app.get('/usuarios/:id', async (req, res) => {
     const users = await prisma.user.findUnique({
