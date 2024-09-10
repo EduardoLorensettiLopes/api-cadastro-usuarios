@@ -1,0 +1,21 @@
+{
+  "name": "api-cadastro-usuarios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Eduardo Lorensetti",
+  "license": "ISC",
+  "description": "api de cadastro de usuarios",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
